@@ -3,7 +3,7 @@ remotepath = 'https://valinecdn.bili33.top/'
 prefix= input("请输入前缀：")
 def findAllFile(base):
     files = os.listdir(base)
-    # files.sort(key = lambda x : int(x.split('.')[0][14:]))
+    #files.sort(key = lambda x : int(x.split('.')[0][7:]))
     for file in files:
         if not os.path.isdir(base + file):
             f_name = str(file)
